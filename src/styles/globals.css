@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body,
+  #__next {
+    @apply min-h-screen;
+  }
+
+  #__next {
+    @apply antialiased;
+  }
+}
