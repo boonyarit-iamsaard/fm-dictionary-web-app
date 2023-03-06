@@ -3,12 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-  body,
-  #__next {
-    @apply min-h-screen;
-  }
-
   #__next {
     @apply antialiased;
+    @apply min-h-screen;
+    @apply text-fm-gray-700;
   }
 }
