@@ -49,7 +49,7 @@ export const DropdownMenu: FC = () => {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute right-0 mt-[1.125rem] flex w-[11.4375rem] flex-col space-y-4 rounded-lg bg-white p-6 shadow-md">
+        <Menu.Items className="absolute right-0 z-10 mt-[1.125rem] flex w-[11.4375rem] flex-col space-y-4 rounded-lg bg-white p-6 shadow-md">
           {Object.entries(fontCategoryOptions).map(([key, value]) => (
             <Menu.Item key={key}>
               {({ active }) => (
